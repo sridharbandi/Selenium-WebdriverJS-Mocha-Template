@@ -1,6 +1,6 @@
 import {By, until, Key} from "selenium-webdriver";
 
-module.exports = function (driver) {
+export default function (driver) {
     const pageobjects = {
         searchbox: By.id('lst-ib')
     };
@@ -15,7 +15,7 @@ module.exports = function (driver) {
             return this.waitUntilVisible();
         },
         searchfor: function (text) {
-            return driver.findElement(elements.searchbox).sendKeys(text + Key.RETURN);
+            return driver.findElement(pageobjects.searchbox).sendKeys(text + Key.RETURN);
         }
     };
-};
+}
