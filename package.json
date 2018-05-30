@@ -16,9 +16,13 @@
   "dependencies": {
     "chai": "^4.1.2",
     "chromedriver": "^2.38.3",
+    "edgedriver": "^4.17134.0",
     "geckodriver": "^1.11.0",
+    "iedriver": "^3.9.2",
     "mocha": "^5.2.0",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "operadriver": "^1.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
